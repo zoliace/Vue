@@ -50,7 +50,6 @@ a.btn-green:hover{
 .navbar-dark .navbarNav .nav-link{
   color: #fff;
   font-size: 1.2rem;
-
   }
 
   .navbar-dark .navbarNav .nav-link .navbar-nav:hover{
@@ -66,8 +65,9 @@ a.btn-green:hover{
   background-color: purple;
 }
 
+/* rólunk zöld rész */
 .bg-green{
-  background-color: rgba(171, 218, 10, .2);
+  background-color: rgba(93, 218, 10, 0.2);
 }
 
 .home-card{
