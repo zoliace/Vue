@@ -136,3 +136,24 @@ width: 999em;
 margin: 0 0 0 1em;
 
 }
+
+
+/* cikk oldal */
+
+.btn-facebook{
+background: #385998;
+border-radius: 5px;
+color: #fff;
+border-style: solid;
+border-color: #263961; 
+
+}
+
+.btn-facebook:link, .btn-facebook:visited{
+color: #fff
+}
+
+.btn-facebook:active, .btn-facebook:hover{
+  background: #263961
+}
+
