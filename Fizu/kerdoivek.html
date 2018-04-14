@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="style.css">
-    <title>Fizu.hu | Főoldal</title>
+    <title>Fizu.hu | Kérdőívek</title>
   </head>
 
   <body>
@@ -72,11 +72,11 @@
   <ul class="nav nav-tabs" id="myTab" role="tablist">
 
     <li class="nav-item">
-      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>
+      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Rövid kérdőív</a>
     </li>
 
     <li class="nav-item">
-      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Hosszú kérdőív</a>
     </li>  
 
   </ul>
@@ -121,7 +121,7 @@
                 <p>Melyik megyében végzi a munkáját?</p>
               </div>
     
-              <div class="col-12 col-md-5 py-md-3">
+              <div class="col-12 col-md-5 py-md-3 mb-3">
                     <select class="custom-select">
                         <option selected>Válassz</option>
                         <option value="1">17</option>
@@ -131,13 +131,29 @@
                         <option value="5">21</option>                    
                      </select>
               </div>
+         
+ <!-- 3 -->
 
-                 <!-- 3-->
-          <div class="col-12 col-md-7 py-md-3">
-              <p>Melyik településen végzi a munkáját?</p>
+            <div class="col-12 col-md-7 py-md-3">
+              <p>Mennyi a havi keresete?</p>
+            </div>
+
+            <div class="col-12 col-md py-md-3 mb-3">
+              <div class="form-row">
+            <div class="col-md-7">
+              <input type="number" class="form-control is-invalid" id="validationServer03" placeholder="Válasszon" required>
+
+            </div>
+
+              </div>
+            </div>
+
+             <!-- 4 -->
+             <div class="col-12 col-md-7 py-md-3">
+              <p>Melyik megyében végzi a munkáját?</p>
             </div>
   
-            <div class="col-12 col-md-5 py-md-3">
+            <div class="col-12 col-md-5 py-md-3 mb-3">
                   <select class="custom-select">
                       <option selected>Válassz</option>
                       <option value="1">17</option>
@@ -148,12 +164,12 @@
                    </select>
             </div>
 
-               <!-- 4 -->
-          <div class="col-12 col-md-7 py-md-3">
-              <p>Hány éves?</p>
+             <!-- 5 -->
+             <div class="col-12 col-md-7 py-md-3">
+              <p>Melyik megyében végzi a munkáját?</p>
             </div>
   
-            <div class="col-12 col-md-5 py-md-3">
+            <div class="col-12 col-md-5 py-md-3 mb-3">
                   <select class="custom-select">
                       <option selected>Válassz</option>
                       <option value="1">17</option>
@@ -163,6 +179,45 @@
                       <option value="5">21</option>                    
                    </select>
             </div>
+
+             <!-- 6 -->
+             <div class="col-12 col-md-7 py-md-3">
+              <p>Melyik megyében végzi a munkáját?</p>
+            </div>
+  
+            <div class="col-12 col-md-5 py-md-3 mb-3">
+                  <select class="custom-select">
+                      <option selected>Válassz</option>
+                      <option value="1">17</option>
+                      <option value="2">18</option>
+                      <option value="3">19</option>
+                      <option value="4">20</option>
+                      <option value="5">21</option>                    
+                   </select>
+            </div>
+
+             <!-- 7 -->
+             <div class="col-12 col-md-7 py-md-3">
+              <p>Melyik megyében végzi a munkáját?</p>
+            </div>
+  
+            <div class="col-12 col-md-5 py-mb-3">
+                  <select class="custom-select">
+                      <option selected>Válassz</option>
+                      <option value="1">17</option>
+                      <option value="2">18</option>
+                      <option value="3">19</option>
+                      <option value="4">20</option>
+                      <option value="5">21</option>                    
+                   </select>
+            </div>
+
+             <div class="col text-center md-5">
+              <button type="button" class="btn btn-outline-success">Elküldöm</button>
+
+             </div> 
+
+           
 
 
 
@@ -171,17 +226,116 @@
       
     </div>
 
-    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>    
+    <!-- Hosszú kérdőív -->
+    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...
+
+     
+<div class="row py-5 mx-4">    <!-- Sor kijelölő -->
+    <!-- <div class="col-12 col-md-7 py-md-3 "> -->
+
+  <!-- 1 -->
+  <div class="col-12 col-md-7 py-md-3">
+      <p>Neme</p>
+    </div>
+    <div class="col-12 col-md-5 py-md-3">
+
+        <div class="form-check form-check-inline">                     <!-- inlineRadio-t átirni, value-t is -->
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option1">
+            <label class="form-check-label" for="inlineRadio4">Férfi</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option2">
+            <label class="form-check-label" for="inlineRadio5">Nő</label>
+          </div> 
+        </div>
+
+      <!-- 2 -->
+      <div class="col-12 col-md-7 py-md-3">
+      <p>Neme</p>
+      </div>
+      <div class="col-12 col-md-5 py-md-3">
+
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option1">
+            <label class="form-check-label" for="inlineRadio6">Férfi</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio7" value="option2">
+            <label class="form-check-label" for="inlineRadio7">Nő</label>
+          </div> 
+        </div>
+
+
+        <!--3 -->
+        <div class="col-12 col-md-7 py-md-3">
+        <p>Neme</p>
+        </div>
+        <div class="col-12 col-md-5 py-md-3">
+
+          <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio8" value="option1">
+              <label class="form-check-label" for="inlineRadio8">Férfi</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio9" value="option2">
+              <label class="form-check-label" for="inlineRadio9">Nő</label>
+            </div> 
+          </div>
+
+
+         <!-- 4 -->
+      <div class="col-12 col-md-7 py-md-3">
+          <p>Neme</p>
+        </div>
+        <div class="col-12 col-md-5 py-md-3">
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio10" value="option1">
+                <label class="form-check-label" for="inlineRadio10">Férfi</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio11" value="option2">
+                <label class="form-check-label" for="inlineRadio11">Nő</label>
+              </div> 
+            </div>
+
+          <!-- 5-->
+          <div class="col-12 col-md-7 py-md-3">
+          <p>Neme</p>
+          </div>
+          <div class="col-12 col-md-5 py-md-3">
+
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio12" value="option1">
+                <label class="form-check-label" for="inlineRadio12">Férfi</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio13" value="option2">
+                <label class="form-check-label" for="inlineRadio13">Nő</label>
+              </div> 
+            </div>
+
+            <div class="col text-center md-5">
+                <button type="button" class="btn btn-outline-success">Elküldöm</button>
+  
+               </div> 
+
+    </div>    
+
+</div>
+
+</div>
+
+
+
+
+
+
 
 
 
   </div>  <!-- container -->
     
-
-
-
-
-
 
 <!-- lábléc ***************************lábléc*************************lábléc ********************* -->
 
