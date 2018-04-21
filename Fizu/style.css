@@ -164,3 +164,119 @@ color: #fff
   background: #263961
 }
 
+/* Bejelentkezés oldal */
+
+.bejelentkezes{
+  background-image: url("img/login-bg.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  padding-top: 8%;
+  padding-bottom: 8%;
+
+}
+
+.login-card{
+  background-color: rgba(42, 47, 51, .8);
+  color: #fff;  
+}
+
+.login-card a{
+  color: #eff0f7;
+}
+
+.login-card-header{
+  background-color: rgba(42, 47, 51, .8);
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #eff0f7;
+}
+
+.login-card .form-control{
+  background-color: rgba(42, 47, 51, .7);
+  border-color: transparent;
+}
+
+.login-card .form-control:focus{
+  background-color: rgba(42, 47, 51, .5);
+  border-color: #3884aa;
+  outline: none;
+  box-shadow: none;  
+  color: #eff0f7;
+}
+
+.login-card .form-control::placeholder{
+  color:  #d6d7de;
+}
+
+/* facebook */
+
+.loginbtn{
+  color: #fff;
+}
+
+.loginBtn--Facebook{
+  background-image: linear-gradient(#4c69ba, #3b55a0);
+  /* background-color: #4c69ba; */
+  text-shadow: 0 -1px 0   #354c8c;
+}
+
+.loginBtn--Facebook:hover, .loginBtn--Facebook:focus{
+  background-color: #5b7bd5;
+  background-image: linear-gradient(#5b7bd5, #6864b1);
+}
+
+/* google gomb */
+.loginBtn--Google{
+  background-image: linear-gradient(#dd4b39, #a7372b);
+  /* background-color: #4c69ba; */
+  text-shadow: 0 -1px 0   #a7372b;
+}
+
+.loginBtn--Google:hover, .loginBtn--Google:focus{  
+  background-image: linear-gradient(#e74b37, #cd4435);
+}
+
+
+/* footer-ben */
+.btn-login{
+  background-color: #298e62;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.btn-login:hover{
+  background-color: #2d9b6b;
+}
+
+/* errorpage  */
+.error-background{
+  background-image: linear-gradient(rgba(43, 45, 66, .4), rgba(43, 45, 66, .6 )),  url("img/error-page.jpeg");
+  background-repeat: no-repeat;
+  min-height:  100vh;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.content{
+  padding-top: 118px;
+  color: #cdd4de;
+}
+
+.content h1{
+  font-weight: 900;
+  font-size: 8.5rem;
+  opacity: 0.6;
+}
+
+.content h2{
+  font-weight: 600;
+  font-size: 2.2rem;
+  opacity: 0.9;
+}
+
+@media (min-width 1200px){
+  html{
+    font-size: 18 px;
+  }
+}

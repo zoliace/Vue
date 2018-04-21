@@ -66,3 +66,8 @@ body {
     width: 25%;
 
 }
+
+/* login page */
+.row-login-form{
+  margin-top: 50px;
+}
